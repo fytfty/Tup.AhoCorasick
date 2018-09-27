@@ -47,6 +47,7 @@ namespace Tup.AhoCorasick
             var startIndex = 0;
             var endIndex = 0;
             var resContent = new StringBuilder();
+
             foreach (var v in result)
             {
                 endIndex = v.Index;
